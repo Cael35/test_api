@@ -1,1 +1,1 @@
-Repo to test tha Github API.
+Repo to test the Github API.
