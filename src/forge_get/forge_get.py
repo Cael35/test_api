@@ -220,7 +220,6 @@ def __main():
     my_args = get_args()
 
     forge_token = Token(my_args.forge, my_args.token_file)
-
     the_project = Project(my_args.project, my_args.forge, my_args.forge_name)
 
     the_request = GetRequest(the_project, forge_token, my_args.endpoint)
